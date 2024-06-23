@@ -36,7 +36,7 @@ public class FacturaTableModel implements TableModel{
     }
 
     public int getColumnCount() {
-        return 4; // Añadimos una columna al TableModel
+        return 3; 
     }
 
     public String getColumnName(int columnIndex) {
@@ -50,9 +50,6 @@ public class FacturaTableModel implements TableModel{
                 break;
             case 2:
                 name = "Importe";
-                break;    
-            case 3:   // Nombre de la nueva columna
-                name = "Pendiente de pago";
                 break;
             
         }
@@ -71,9 +68,6 @@ public class FacturaTableModel implements TableModel{
             case 2:
                  c= Double.class;
                 break;
-            case 3: // Indicamos el tipo de dato de la nueva columna
-                 c= Boolean.class;
-                break;
         }
         return c;
     }
@@ -81,7 +75,7 @@ public class FacturaTableModel implements TableModel{
     public boolean isCellEditable(int rowIndex, int columnIndex) {
         return false; 
     }
-    // Obtenemos los valores de las columnas en cada fila
+
     public Object getValueAt(int rowIndex, int columnIndex) {
         Factura factura = facturas.get(rowIndex);
         Object value = null;
@@ -94,17 +88,14 @@ public class FacturaTableModel implements TableModel{
                 break;
             case 2:
                 value = factura.getImporte();
-                break;     
-            case 3: 
-                value = factura.getPagado();
                 break;
         }
         return value;
 
     }
-    // Lo usamos en caso de que se vaya a marcar una factura como pagada
+
     public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
-        
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public void addTableModelListener(TableModelListener l) {

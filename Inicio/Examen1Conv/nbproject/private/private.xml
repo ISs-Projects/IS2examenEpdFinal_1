@@ -6,9 +6,14 @@
             <file>file:/Users/davgutavi/Documents/netbeans_workspace/IS2EPD10/src/is2epd10/SingleEntryPoint.java</file>
         </group>
         <group>
-            <file>file:/C:/Users/eps/Desktop/Examen/inicio/Examen1Conv/src/controlador/Controller.java</file>
-            <file>file:/C:/Users/eps/Desktop/Examen/inicio/Examen1Conv/src/modelo/persistencia/GenericDAO.java</file>
-            <file>file:/C:/Users/eps/Desktop/Examen/inicio/Examen1Conv/src/modelo/entidades/Entidad.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/entidades/Factura.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/entidades/Cliente.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/vista/factura/FacturaTableModel.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/persistencia/JDBC/Persistencia.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/entidades/ClienteImpl.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/persistencia/GenericDAO.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/vista/AbstractViewImpl.java</file>
+            <file>file:/C:/Users/AdrianGilGamboa/Desktop/IS2/Examen1Conv(MVC)/Examen1Conv/MaterialExamen1Conv/Examen1Conv/src/modelo/entidades/FacturaImpl.java</file>
         </group>
     </open-files>
 </project-private>

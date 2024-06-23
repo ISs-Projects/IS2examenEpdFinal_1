@@ -10,10 +10,5 @@ public interface Factura extends Serializable{
     
     public void setIdentificador(String id);
     //void setCliente(Cliente cl);
-    // Habilitamos el método que se encontraba comentado 
-    void setImporte(Double im);
-    
-    // Definimos el metodo para marcar la factura como pagada
-    public void setPagado(Boolean p);
-    public Boolean getPagado();
+    //void setImporte(Double im);
 }

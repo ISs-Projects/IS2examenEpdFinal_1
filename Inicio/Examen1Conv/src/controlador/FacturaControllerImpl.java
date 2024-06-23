@@ -8,10 +8,7 @@ import modelo.entidades.Factura;
 import modelo.entidades.FacturaImpl;
 import vista.factura.FacturaView;
 
-// Entiendo que a esta clase llegan datos de una entidad generica y se desacoplan en esta implementacion específica
-
 public class FacturaControllerImpl extends AbstractControllerImpl<FacturaModel, FacturaView, Serializable> implements FacturaController{
-    
     
     @Override
     protected Factura generaEntidad(List<Serializable> datos){
@@ -20,7 +17,7 @@ public class FacturaControllerImpl extends AbstractControllerImpl<FacturaModel, 
         Double importe=new Double((String)datos.get(2));
         Factura f=new FacturaImpl(identificador,cliente);
         f.setImporte(importe);
-   
+        
         return f;
 
     }

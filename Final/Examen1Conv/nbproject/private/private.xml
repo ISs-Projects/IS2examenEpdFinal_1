@@ -6,37 +6,22 @@
             <file>file:/Users/davgutavi/Documents/netbeans_workspace/IS2EPD10/src/is2epd10/SingleEntryPoint.java</file>
         </group>
         <group>
-            <file>file:/E:/Examen1Conv/src/vista/View.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/ClienteModel.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/factura/FacturaViewImplInternal.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/factura/FacturaView.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/ClienteModelImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/VistaGlobal.java</file>
-            <file>file:/E:/Examen1Conv/src/controlador/Controller.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/FacturaModel.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/entidades/ClienteImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/persistencia/GenericDAO.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/FacturaModelImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/controlador/FacturaController.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/cliente/ClienteViewImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/main/SingleEntryPoint.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/factura/FacturaViewImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/cliente/ClienteTableAndComboModel.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/persistencia/JDBC/FacturaDAOJDBC.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/persistencia/ClienteDAO.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/persistencia/JDBC/ClienteDAOJDBC.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/Model.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/cliente/ClienteViewImplInternal.java</file>
-            <file>file:/E:/Examen1Conv/src/controlador/FacturaControllerImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/entidades/Factura.java</file>
-            <file>file:/E:/Examen1Conv/src/controlador/ClienteControllerImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/persistencia/FacturaDAO.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/AbstractModelImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/controlador/AbstractControllerImpl.java</file>
-            <file>file:/E:/Examen1Conv/src/vista/factura/FacturaTableModel.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/entidades/Entidad.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/entidades/Cliente.java</file>
-            <file>file:/E:/Examen1Conv/src/modelo/entidades/FacturaImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/persistencia/JDBC/FacturaDAOJDBC.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/AbstractModelImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/vista/factura/FacturaViewImplInternal.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/ClienteModelImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/controlador/Controller.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/vista/factura/FacturaView.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/entidades/Factura.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/FacturaModelImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/controlador/FacturaControllerImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/controlador/FacturaController.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/persistencia/JDBC/ClienteDAOJDBC.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/entidades/FacturaImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/vista/factura/FacturaTableModel.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/entidades/Entidad.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/vista/factura/FacturaViewImpl.java</file>
+            <file>file:/C:/Users/joni-/Documents/GitHub/IS2/IS2examenEpdFinal_1/Final/Examen1Conv/src/modelo/FacturaModel.java</file>
         </group>
     </open-files>
 </project-private>

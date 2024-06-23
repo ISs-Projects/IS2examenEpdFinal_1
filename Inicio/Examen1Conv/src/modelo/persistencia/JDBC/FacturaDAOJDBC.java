@@ -12,7 +12,6 @@ import modelo.entidades.Factura;
 import modelo.entidades.FacturaImpl;
 import modelo.persistencia.FacturaDAO;
 
-// Añadimos el nuevo atributo que se a manejar el modelo de Factura.
 public class FacturaDAOJDBC implements FacturaDAO {
 
     public List<Factura> listByCliente(String dni) {
@@ -23,19 +22,17 @@ public class FacturaDAOJDBC implements FacturaDAO {
             ResultSet res = stmt.executeQuery("SELECT * FROM vfacturas where DNI="+dni);
             String nombre,direccion, id_factura;
             Double importe;
-            Boolean pago;
             while (res.next()) {
                 //DNI = res.getString("DNI");
                 nombre=res.getString("nombre");
                 direccion=res.getString("direccion");
                 id_factura = res.getString("identificador");
                 importe = res.getDouble("importe");
-                pago = res.getBoolean("pendiente");
 
                 //creo cliente
                 Cliente cliente = new ClienteImpl(dni,nombre,direccion);
                 //Añado la factura
-                facturas.add(new FacturaImpl(id_factura, cliente, importe,pago));
+                facturas.add(new FacturaImpl(id_factura, cliente, importe));
             }
 
         } catch (SQLException e) {
@@ -47,13 +44,13 @@ public class FacturaDAOJDBC implements FacturaDAO {
     }
 
     public void create(Factura entidad) {
-        String sql = "insert into facturas(identificador,id_cliente,importe,pendiente) values (?,?,?,?)";
+        String sql = "insert into facturas(identificador,id_cliente,importe) values (?,?,?)";
         try {
             PreparedStatement stm = Persistencia.createConnection().prepareStatement(sql);
             stm.setString(1, entidad.getIdentificador());
             stm.setString(2, entidad.getCliente().getDNI());
             stm.setDouble(3, entidad.getImporte());
-            stm.setBoolean(4,entidad.getPagado());
+
             stm.execute();
 
         } catch (SQLException e) {
@@ -70,18 +67,14 @@ public class FacturaDAOJDBC implements FacturaDAO {
             ResultSet res = stmt.executeQuery("SELECT * FROM facturas where identificador=" + pk);
             String identificador, id_cliente;
             Double importe;
-            Boolean pago;
             if (res.next()) {
                 identificador = res.getString("identificador");
                 id_cliente = res.getString("id_cliente");
                 importe = res.getDouble("importe");
-                pago = res.getBoolean("pendiente");
-                
-                
                 //Leo el Cliente
                 Cliente cliente = (new ClienteDAOJDBC()).read(id_cliente);
                 //Creo la factura
-                f = new FacturaImpl(identificador, cliente, importe, pago);
+                f = new FacturaImpl(identificador, cliente, importe);
             }
 
         } catch (SQLException e) {
@@ -100,7 +93,6 @@ public class FacturaDAOJDBC implements FacturaDAO {
             stm.setString(3, entidad.getIdentificador());
             stm.setString(1, entidad.getCliente().getDNI());
             stm.setDouble(2, entidad.getImporte());
-            stm.setBoolean(4,entidad.getPagado());
         
             stm.executeUpdate();
 
@@ -133,19 +125,17 @@ public class FacturaDAOJDBC implements FacturaDAO {
             ResultSet res = stmt.executeQuery("SELECT * FROM vfacturas");
             String DNI,nombre,direccion, id_factura;
             Double importe;
-            Boolean pago;
             while (res.next()) {
                 DNI = res.getString("DNI");
                 nombre=res.getString("nombre");
                 direccion=res.getString("direccion");
                 id_factura = res.getString("identificador");
                 importe = res.getDouble("importe");
-                pago = res.getBoolean("pendiente");
 
                 //creo cliente
                 Cliente cliente = new ClienteImpl(DNI,nombre,direccion);
                 //Añado la factura
-                facturas.add(new FacturaImpl(id_factura, cliente, importe,pago));
+                facturas.add(new FacturaImpl(id_factura, cliente, importe));
             }
 
         } catch (SQLException e) {

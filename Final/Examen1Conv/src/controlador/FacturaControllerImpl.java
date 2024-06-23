@@ -59,7 +59,7 @@ public class FacturaControllerImpl extends AbstractControllerImpl<FacturaModel, 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         Date fecha2 = null;
         Date fecha = null; // Variable que almacenará la fecha
-// fechaEnString es de tipo String y contiene la fecha a convertir
+                            // fechaEnString es de tipo String y contiene la fecha a convertir
         if (fechaEnString.length() > 0) {
             try {
                 Integer anyo = Integer.valueOf(fechaEnString);
