@@ -13,6 +13,10 @@ public class FacturaImpl implements Factura {
         this.importe = importe;
     }
 
+    public FacturaImpl(String identificador, Cliente cliente) {
+        this(identificador,cliente,null);
+    }
+    
     public FacturaImpl(String identificador) {
         this(identificador,null,null);
     }
@@ -33,8 +37,8 @@ public class FacturaImpl implements Factura {
     }
 
     @Override
-    public void setIdentificador(String id) {
-        this.identificador = id;
+    public void setImporte(Double im) {
+        this.importe = im;
     }
 
     

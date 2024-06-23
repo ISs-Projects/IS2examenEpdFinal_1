@@ -2,7 +2,7 @@ package modelo.entidades;
 
 import java.io.Serializable;
 
-public interface Cliente extends Serializable {
+public interface Cliente extends Serializable, Entidad{
     
     public String getDNI();
     public String getNombre();

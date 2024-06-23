@@ -14,8 +14,8 @@ public class Persistencia {
     public static Connection createConnection(){
         if (conexion==null){
             try{
-                Class.forName("com.mysql.jdbc.Driver").newInstance();                
-                //Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+                //Class.forName("com.mysql.jdbc.Driver").newInstance();                
+                Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
                 conexion=DriverManager.getConnection(url,login,password);
             }catch(ClassNotFoundException e){System.out.println(e);
             }catch(SQLException e){System.out.println(e);
